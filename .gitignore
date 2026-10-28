@@ -1,0 +1,25 @@
+# Dependencies and build files
+node_modules/
+dist/
+build/
+coverage/
+
+# Environment variables and secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+
+# Runtime packages and archives
+/packages/
+/packages/**
+*.tar.gz
+
+# Uploads and logs
+uploads/
+*.log
+
+# OS and editor files
+.DS_Store
+.vscode/
