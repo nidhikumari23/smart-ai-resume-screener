@@ -52,13 +52,15 @@ const ai = new GoogleGenAI({
    MIDDLEWARE
 ========================================================= */
 
-app.use(
-  cors({
-    origin: "http://localhost:5173",
-    credentials: true,
-  })
-);
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://smart-ai-resume-screener-1.onrender.com"
+];
 
+app.use(cors({
+  origin: allowedOrigins,
+  credentials: true
+}));
 app.use(express.json({ limit: "10mb" }));
 app.use(express.urlencoded({ extended: true }));
 
