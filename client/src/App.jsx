@@ -26,7 +26,7 @@ import {
 import Auth from "./Auth";
 import "./App.css";
 
-const API_URL = "http://localhost:5001";
+const API_URL = "https://smart-ai-resume-screener.onrender.com";
 
 function App() {
   const [user, setUser] = useState(null);
