@@ -1,5 +1,8 @@
 # Smart AI Resume Screener & Interview Preparation Portal
 
+🚀 Live Demo
+https://smart-ai-resume-screener-1.onrender.com
+
 An AI-powered placement preparation platform designed to help students build professional resumes, analyze their resumes, match job descriptions, and practice interviews.
 
 ## Overview
